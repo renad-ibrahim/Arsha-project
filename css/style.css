@@ -1,0 +1,950 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* start navbar */
+nav  {
+    background-color: #2d4164;
+}
+.brand-name {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav li .active{
+    color: #8392e1;
+}
+.nav li a {
+  color: white;
+    font-size: 17px;
+}
+.nav li a:hover{
+   color: #8392e1;
+    background-color: #2d4164;
+}
+/* end navbar */
+
+/*start hero */
+.hero {
+    position: relative;
+   background-color: #2d4164; 
+    overflow: hidden;
+    margin-top: 51px;
+}
+.hero .image-hero{
+    width:50%;
+    float: right;
+    display: none;
+}
+.hero .heading-hero{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 120;
+}
+.hero .heading-hero h1{
+    font-size: 55px;
+}
+.hero .heading-hero h3{
+    color: #b3b4bd;
+}
+.btn-info {
+    border-radius: 20px;
+    width: 30%;
+    margin-top: 40px;
+}
+.heading-hero .watch  {
+    display: inline-block;
+    padding-left: 70px;
+    position: absolute;
+    top: 311px;
+}
+.heading-hero .watch i{
+    color: #fff;
+    font-size: 32px;
+    position: absolute;
+    left: 30px;
+    bottom: 5px;  
+}
+/* end hero */
+
+/* start clients */
+.clients{
+    background-color: #b9b9b9;
+}
+.list-unstyled{
+    padding: 20px;
+}
+
+.list-unstyled li img {
+    width: 50%;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.4;
+}
+.list-unstyled li img:hover{
+    opacity: 1;
+}
+/* end clients */
+/* start about us */
+.about-us {
+    padding:20px;
+}
+.about-us h1{
+    text-align: center;
+    font-weight: bold;
+    color: #2d4164;
+}
+.about-us .leftside , .rightside{
+    padding-top: 30px;
+}
+.about-us .leftside p ,.rightside p {
+    font-size: 17px;
+}
+.about-us .leftside .list-unstyled {
+    padding-left: 0px;
+    font-size: 17px;
+}
+.btn {
+    background-color: white;
+    border: 2px solid #2d4164;
+    color: #2d4164;
+    width: 30%;
+}
+.btn:hover{
+    background-color: #2d4164;
+    color: white;
+}
+/* end about us */
+
+/* start skills */
+.skills{
+   padding: 20px;    
+}
+.skills .skills-img img{
+    width: 100%;
+    display: none;
+}
+
+.skills .skills-p p{
+    padding-top: 10px;
+}
+.skills .skills-p h1{
+       color: #2d4164;
+    font-weight: 600;
+}
+.progress{
+    margin-bottom: 10px;
+}
+/* end skills */
+
+/* start services */
+.services{
+    padding-top: 20px;
+    background-color: #b9b9b9;
+}
+.services h1{
+    text-align: center;
+    font-weight: 600;
+    color: #2d4164;
+}
+ .main-prg{
+    text-align: center;
+}
+.services .d1{
+    border: 1px solid white;
+    background-color: white;
+    margin-right: 20px;
+    width: 22%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 45%; 
+    transition:  0.7s;
+    opacity: 0.9;
+}
+.services .d1:hover{
+   opacity: 1;
+   color: #2d4164;
+   transform: translateY(-10px);
+}
+.services .d1 h3 {
+    color: #2d4164;
+    padding-top: 80px;
+}
+.services .d1 h3 a{
+    color: #2d4164;
+}
+.services .d1 h3 a:hover{
+    color: #428bca;
+    text-decoration: none;
+}
+/* end  services */
+
+/* start action */
+.action{
+    padding: 120px;
+    background:  linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../Images/cta-bg.jpg") fixed center center;
+    background-size: cover;
+}
+.action .prg h3{
+    color: white;
+    font-weight: 600;
+}
+.action .prg p{
+    color: white;
+}
+.button .btn{
+   width: 70%;
+    border-radius: 33px;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* enf action */
+
+/* start portfolio */
+.portfolio{
+    padding: 20px;
+
+}
+.portfolio h1{
+    color: #2d4164;
+    font-weight: 600;
+}
+.portfolio ul li{
+    display: inline-block;
+    padding-right: 50px;
+}
+.portfolio ul li a{
+    font-size: 20px;
+}
+.portfolio ul{
+padding-left: 400px;
+}
+.portfolio ul li .active{
+    background-color: #2d4164;
+    color: white;
+}
+.portfolio ul li .btn{
+    border: 1px solid white;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.portfolio-images img{
+ width: 100%;
+    transition: 0.7s;
+}
+.portfolio-images img:hover{
+    transform: translateY(-10px);
+}
+/* end portfolio */
+
+
+/* start team */
+.team {
+    background-color: #b9b9b9;
+    padding: 30px;
+}
+.team h1{
+    color: #2d4164;
+    font-weight: 600;
+}
+.team .member-team{
+    border: 1px solid white;
+    background-color: white;
+    width: 47%;
+    margin-right: 34px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+.team .member-team:hover{
+    transform: translateY(-10px);
+}
+.team .member-team img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.team .member-team .p1 {
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+    top: 50px;
+}
+.team .member-team .member-name {
+    top: -5px; 
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+    color: #2d4164;
+    font-weight: bold;
+}
+    .team .member-team  .p2{
+    top: 90px;
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+}
+.team .member-team .member-name .p2{
+    top: 50px;
+}
+/* end team */
+
+/* start price */
+.price{
+    padding: 30px
+}
+.price h1{
+    color: #2d4164;
+    font-weight: bold;
+}
+.price .price1 {
+    background-color: #fff;
+    box-shadow: 1px -2px 10px -3px;
+    padding: 30px;
+    width: 30%;
+    height: 65%;
+    margin-right: 39px;
+    margin-top: 35px;
+}
+.price .price1 p:first-of-type{
+    color: #2d4164;
+    font-weight: bold;
+    font-size: 24px;
+}
+.price .price1 h3{
+    color: #2d4164;
+    display: inline-block;
+}
+.price .price1 h1{
+    display: inline-block;
+    font-size: 50px;
+}
+.price .price1 p:nth-of-type(2){
+    color: #4a91f0;
+}
+.price .price1 .list-unstyled {
+    margin-left: -20px;
+}
+.price .price1 .list-unstyled li{
+    color: #a8a4a4;
+    font-size: 18px;
+}
+.price .price1 .price-button{
+    margin-top: 7px;
+    margin-left: 10px;
+    width: 45%;
+}
+.price1 .list-unstyled i{
+    color: green;
+}
+
+/* end price */
+
+/* start contact */
+.contact{
+    padding: 30px;
+}
+.contact h1{
+    color: #2d4164;
+}
+.contact p:first-of-type{
+    
+}
+.contact .location {
+    box-shadow: 1px 1px 1px 1px;
+    margin-top: 30px;
+    padding: 30px;
+    width: 40%;
+}
+.contact .location i{
+    font-size: 30px;
+    color: #2d4146;
+    display: inline-block;
+}
+.contact .location i:hover{
+    color: #7cbbcb;
+}
+.contact .location h2{
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+.contact .location p{
+    margin-left: 45px;
+}
+.contact .location img{
+    width: 100%;
+}
+
+.complete-form {
+    box-shadow: 1px 1px 1px 1px;
+    margin-top: 30px;
+    padding: 30px;
+    height: 88%;
+    margin-left: 90px;
+}
+
+.complete-form form {
+    padding: 30px 0px 30px 0px;
+}
+.complete-form form p:first-of-type{
+    
+}
+.complete-form form p:nth-of-type(2){
+    float: left;
+    margin-left: 264px;
+    margin-top: -73px;
+}
+.complete-form form p:nth-of-type(3){
+    margin-top: 25px;
+}
+.complete-form form p:last-of-type{
+    margin-top: 25px;
+}
+.complete-form form .ur-name{
+    display: inline-block;
+}
+.complete-form form .ur-pass{
+   float: right;
+    margin-top: -46px;
+}
+.complete-form form .subject{
+    width: 100%;
+}
+textarea.input-lg{
+    height: 255px;
+}
+.send{
+    background-color: #2d4164;
+    color: white;
+    margin-left: 160px;
+}
+
+.input-lg, .form-horizontal .form-group-lg .form-control {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+/* end contact */
+/* start copy right */
+.copy-right{
+    background-color: #2d4164;
+    height: 60px;
+}
+.copyright p{
+    color: #fff;
+    margin-top: 25px;
+}
+.copyright span:first-of-type{
+    float: right;
+}
+.copyright span:last-of-type{
+    color: aqua;
+}
+/* end copy right */
+
+
+
+
+/* start responsive */
+ 
+
+@media(max-width:575px){
+
+/*  ********* navbar and header ******** */
+    .navbar-nav{
+        display: none;
+    }
+    
+    
+    .hero {
+        height: 45%;
+    }
+    .image-hero img {
+        width: 100%;
+    }
+    
+    
+    .hero .heading-hero h1{
+        font-size: 34px;
+        position: relative;
+        top: -103px;
+    }
+    
+    .hero .heading-hero h3{
+        position: relative;
+        top: -60px;
+    }
+    
+    
+    .btn-info{
+        margin-top: -55px;
+    }
+    
+    .heading-hero .watch i{
+        bottom: 117px;
+    }
+    
+    .watch p {
+        margin: -143px 0 10px;
+    }
+    
+/* ************ Cliens ************ */
+    .list-unstyled li img{
+        width: 85%;
+    }
+/* ************ skills ******* */
+    
+    .skills .skills-p h1 {
+        font-size: 30px;
+    }
+    
+/* ************ services ********** **/ 
+    .services .d1{
+        margin-right: 4px;
+        margin-left: 5px;
+        width: 23%;
+        height: 47%;
+    }
+    
+/* ************ action *********** */
+    .button .btn{
+        width: 75%;
+        margin-top: 10px;
+        margin-left: 13px;
+    }
+    
+    
+/* ************ portfolio *********** */
+    
+    .portfolio ul {
+         padding-left: 0px;
+         margin-left: 32px;
+         margin-right: -32px;
+    }
+    
+    .portfolio ul li {
+         padding-right: 33px;
+    }
+    
+    .portfolio .col-xs-12{
+        margin-top: 15px;
+    }
+    
+/* *********** team ************ */
+    .team .member-team {
+        width: 103%;
+        height: 21%;
+        margin-right: 0px;
+    }
+    
+/* ********** price ********** */
+    
+    .price .price1{
+        width: 100%;
+        height: 57%;
+    }
+    
+/* ******** content ********** */
+    .contact .location{
+        width: 100%;
+    }
+    
+    
+    .complete-form{
+        margin-left: 0px;
+        height: 103%;
+    }
+    
+    .complete-form form .ur-pass{
+        margin-top: 0px;
+        float: none;
+        width: 100%;
+    }
+    
+    .complete-form form .ur-name{
+        width: 100%;
+    }
+    .complete-form form p:nth-of-type(2){
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    
+    .complete-form form .btn-info{
+        margin-top: 10px;
+        width: 50%;
+        margin-left: 83px;
+    }
+}
+
+@media(min-width:512px) and (max-width:575px){
+    .complete-form{
+        margin-left: 0px;
+        height: 90%;
+    }
+}
+
+
+
+@media(min-width:576px) and (max-width:767px){
+    .navbar-nav{
+        display: none;
+    }
+    
+    .hero .heading-hero h1{
+        font-size: 40px;
+    }
+    
+    .image-hero img {
+        width: 100%;
+    }
+    
+    .hero .heading-hero{
+        position: relative;
+        top:0;
+    }
+    
+    .heading-hero .watch i{
+        bottom: 7px;
+    }
+    
+    .heading-hero .btn{
+        margin-top: 8px;
+        margin-bottom: 10px;
+}
+    .heading-hero p{
+        margin-top: -15px;
+    }
+    .services .d1{
+        width: 21%;
+        margin-left: 12px;
+        margin-right: 10px;
+    }
+    
+
+/* *********** portfolio *********** * */
+    .portfolio ul {
+        text-align: center;
+       padding-left: 0px;
+    }
+    
+    .portfolio ul li {
+       
+        padding-right: 26px;
+    }
+    
+    .portfolio-images {
+        width: 50%;
+        float: left;
+    }
+    
+/* ************ team **************** */
+    .team .member-team{
+        width: 100%;
+    }
+    
+/*  ************ price ******************* */
+    .price .price1{
+        width: 100%;
+        height: 57%;
+    }
+    
+/* ******** content ********** */
+    .contact .location{
+        width: 100%;
+    }
+    
+    
+    .complete-form{
+        margin-left: 0px;
+        height: 93%;
+    }
+    
+    .complete-form form .ur-pass{
+        margin-top: 0px;
+        float: none;
+        width: 100%;
+    }
+    
+    
+    .complete-form form .ur-name{
+        width: 100%;
+    }
+    .complete-form form p:nth-of-type(2){
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    
+    .complete-form form .btn-info{
+        margin-top: 10px;
+        width: 50%;
+        margin-left: 83px;
+    }
+}
+
+@media(min-width:696px) and (max-width:767px){
+    .heading-hero p {
+        margin-top: -54px;
+    }
+    
+    .heading-hero .watch i {
+         bottom: 31px;
+     }
+}
+
+
+@media(min-width:768px) and (max-width:949px){
+    .image-hero img{
+        width: 100%;
+    }
+     
+    .hero .heading-hero h1 {
+        font-size: 40px;
+    }
+    
+    .heading-hero .btn{
+        margin-top: 0px;
+        width: 20%;
+    }
+    
+    .hero .heading-hero{
+        position: relative;
+        top: 0px;
+    }
+    
+    .heading-hero .watch{
+        top: 245px;
+    }
+    
+    .list-unstyled li img{
+        width: 100%;
+    }
+    .portfolio ul {
+        padding-left: 150px;  
+    }
+    .services .d1{
+        margin-right: 9px;
+        margin-left: 13px;
+    }
+    
+    .action{
+        padding: 0px;
+    }
+    .action .button .btn {
+       width: 35%;
+       margin-top: 22px;
+       margin-bottom: 20px;
+       margin-left: 217px;
+    }
+    
+    .team .member-team{
+        width: 92%;
+    }
+    
+    .price .price1 {
+       width: 32%;
+       height: 75%;
+       margin-right: 3px;
+    }
+    
+    .price .price1 .price-button{
+        width: 55%;
+    }
+    
+    .contact .location{
+        width: 45%;
+    }
+    .complete-form{
+        margin-left: 30px;
+        width: 45%;
+        height: 76%;
+    }
+    
+    .complete-form form .ur-pass {
+        margin-top: 0;
+        float: none;
+    }
+    .complete-form form p:nth-of-type(2) {
+       float: none; 
+       margin-left: 0px; 
+       margin-top: 27px;
+    }
+    
+    textarea.input-lg {
+       height: 115px;
+   }
+    
+    .send{
+        margin-left: 55px;
+        width: 50%;
+        margin-top: 10px;
+        
+    } 
+}
+
+@media(min-width:950px){
+    .image-hero img {
+        width: 106%;
+        margin-left: 37px;
+    }
+    
+    .hero .heading-hero{
+        top: 0px;
+    }
+    
+    .hero .heading-hero h1{
+        font-size: 35px;
+    }
+    
+    .hero .heading-hero h3{
+        font-size: 20px;
+    }
+    
+    .heading-hero .btn-info{
+        margin-top: 10px;
+    }
+    
+    .heading-hero .watch{
+        top: 228;
+    }
+    
+    .list-unstyled li img{
+        width: 80%;
+    }
+    .col-xs-12{
+        width: 50%;
+    }
+    .skills .skills-img img {
+        width: 105%;
+        height: 45%;
+    }
+    
+    .skills .skills-p h1{
+        font-size: 20px;
+    }
+    
+    .portfolio ul {
+        padding-left: 150px;
+    }
+    
+    .team .member-team{
+        width: 100%;
+    }
+    
+    .price .price1{
+        width: 32%;
+        height: 75%;
+        margin-right: 6px;
+    }
+    .price .price1 .price-button{
+        width: 55%;
+    }
+    .complete-form{
+        margin-left: 35px;
+        height: 76%;
+    }
+
+    .contact .location{
+        width: 45%;
+    }
+    
+    .complete-form form .ur-pass {
+        float: left;
+        margin-top: 0px;
+        width: 100%;
+     }
+    
+    .complete-form form .ur-name{
+        width: 100%;
+    }
+    textarea.input-lg{
+        height: 130px;
+    }
+    .complete-form form p:nth-of-type(2) {
+       float: left;
+       margin-left: 0;
+       margin-top: 10;
+    }
+    
+    .complete-form form p:nth-of-type(3) {
+        margin-top: 98px;
+    }  
+    
+    .send{
+        margin-left: 80px;
+    width: 50%;
+        margin-top: 20px;
+    }
+    
+}
+
+
+@media(min-width:992px) and (max-width:1999px){
+    .image-hero img {
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .hero .heading-hero {
+    top: 60px;
+}
+    
+    
+    .col-md-3{
+        width: 15%;
+        margin-left: 10px;
+    }
+    .list-unstyled li img {
+       width: 80%;
+     }
+    
+    .button .btn
+    {
+        width: 50%;
+    }
+    
+    .portfolio ul {
+    padding-left: 360px;
+}
+    
+    .team .member-team {
+    width: 45%;
+}
+    .complete-form{
+        height: 83%;
+    }
+}
+
+@media(min-width:1200px){
+    
+    .hero .heading-hero h1{
+        font-size: 50px;
+    }
+    .heading-hero .btn-info {
+        margin-top: 40px;
+    }
+    .heading-hero .watch {
+        top: 289px;
+    }
+    
+    .complete-form{
+        height: 94%;
+    }
+    
+    textarea.input-lg{
+        height: 255px;
+    }
+    .send{
+        margin-left: 120px;
+    width: 50%;
+    }
+}
